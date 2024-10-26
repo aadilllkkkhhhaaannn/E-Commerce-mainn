@@ -1,0 +1,92 @@
+@media (max-width: 576px) {
+  .starter {
+    flex-direction: column; /* Stack vertically on small screens */
+    align-items: center; /* Center align items */
+    text-align: center; /* Center text */
+    padding: 5px; /* Reduced padding for tighter spacing */
+  }
+
+  .starters {
+    flex-direction: column; /* Stack all items vertically */
+    gap: 5px; /* Add a gap between items instead of margin */
+  }
+
+  .img img {
+    max-width: 80%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .m-2 {
+    margin: 0; /* Reset margin on small screens */
+  }
+
+  .rate, .rates {
+    /* margin: 5px 0; Reduced space above and below price */
+    font-size: 1rem; /* Adjust font size if necessary */
+  }
+
+  .green {
+    margin: 5px 0; /* Reduced space above the button section */
+  }
+
+  .delete {
+    margin: 5px 0; /* Reduced space above the remove button */
+  }
+} */
+
+
+
+
+
+
+/*  */
+
+
+
+@media (max-width: 576px) {
+  .starter {
+    flex-direction: column; /* Stack vertically on small screens */
+    align-items: center; /* Center align items */
+    text-align: center; /* Center text */
+    padding: 5px; /* Reduced padding for tighter spacing */
+  }
+
+  .starters {
+    flex-direction: column; /* Stack all items vertically */
+    gap: 5px; /* Add a gap between items instead of margin */
+  }
+
+  .img img {
+    max-width: 70%; /* Make image responsive */
+    height: auto;
+  }
+
+  .m-2 {
+    margin: 0; /* Reset margin on small screens */
+  }
+
+  .rate {
+    margin-right: 190px;
+    font-size: 1rem; /* Adjust font size if necessary */
+  }
+
+  .rates {
+    font-size: 1rem; /* Adjust font size if necessary */
+    margin-right: 260px;
+  }
+
+  .green {
+    margin: 5px 0; /* Reduced space above the button section */
+  }
+
+  .btnn {
+    margin-right: 90px;
+  }
+
+  .delete {
+    margin: 5px 0; /* Reduced space above the remove button */
+  }
+}
+
+
+

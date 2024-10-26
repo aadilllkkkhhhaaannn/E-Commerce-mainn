@@ -1,0 +1,649 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  /* overflow-x: hidden; */
+}
+.aa {
+  border: white;
+  color: black;
+}
+
+.list-group-item:hover {
+  color: #11a165;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icons a:hover {
+  color: #10b671;
+  transition: all ease-in-out 0.2s;
+}
+
+.card {
+  background-color: #0b4b30;
+
+  height: 13vh;
+}
+
+.inpt {
+  outline: none;
+  border-radius: 4px;
+  height: 38px;
+  border: none;
+}
+
+.form-select {
+  border-radius: 7px;
+  cursor: pointer;
+  width: 200%;
+  border: none;
+}
+
+.list-group-item {
+  cursor: pointer;
+  border: none;
+}
+
+.home {
+  border-bottom: black;
+}
+
+/* .Home {
+  height: 100vh;
+} */
+
+.d-block {
+  height: 80vh;
+  width: 10%;
+}
+
+.shopCard {
+  height: 30px;
+  width: 100%;
+  background-color: #b31a22;
+}
+
+.shopCard a,
+p {
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+}
+
+.shopCard img {
+  height: 70vh;
+  width: 100%;
+}
+
+.Grocries {
+  background-color: #f2f4f3;
+  height: 50vh;
+  /* overflow-x: auto; */
+}
+
+.text-name {
+  gap: 40%;
+}
+
+.fruits img {
+  height: 150px;
+}
+
+.fruits {
+  gap: 30px;
+}
+
+.card-1 {
+  height: 370px;
+  /* width: 50px; */
+  background: none;
+  border: 1px solid gray;
+}
+
+.card-1 img {
+  height: 150px;
+  margin-left: 80px;
+  width: 150px;
+}
+
+.text-dark {
+  font-size: 11px;
+}
+.oz {
+  color: gray;
+}
+
+.fa-star {
+  color: yellow;
+}
+
+.dollar p {
+  color: gray;
+}
+
+/* FOOTER */
+
+.Footer h3 {
+  color: #67a919;
+  font-weight: bold;
+}
+
+.Footer p {
+  color: black;
+}
+
+.name {
+  gap: 10%;
+}
+.foter {
+  gap: 8%;
+}
+
+.demo {
+  margin-left: 35px;
+}
+
+.all {
+  position: relative;
+  left: 60px;
+}
+
+.cstm {
+  position: relative;
+  left: 10px;
+}
+
+.demoo {
+  position: relative;
+  left: 40px;
+}
+#floatingInput {
+  position: relative;
+  left: 45px;
+}
+
+/* CARD-FRUIT */
+
+.card-f-1 img {
+  height: 280px;
+  width: 280px;
+}
+
+.card-f-1 {
+  width: 23%;
+  min-width: 200px;
+}
+
+.card-f-1 {
+  border: 1px solid black;
+  width: 300px;
+  height: 470px;
+}
+
+.cart {
+  font-weight: bold;
+}
+
+.p {
+  background-color: white;
+  color: black;
+  height: 26px;
+  width: 40px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  width: 110px;
+  height: 40px;
+  border-radius: 8px;
+  /* background-color: #0c873d; */
+}
+
+.delete {
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.Cards .d-flex {
+  flex-wrap: wrap;
+}
+
+.bb {
+  margin-top: 100px;
+}
+
+.Fresh-fruits .d-flex {
+  flex-wrap: wrap;
+}
+
+.card-1 {
+  width: 23%;
+  min-width: 200px;
+  margin: 10px;
+}
+
+/* ADD TO CART */
+
+.carts {
+  gap: 330px;
+}
+
+.named p {
+  color: #4b5563;
+  /* font-size: 15px; */
+}
+
+.names {
+  gap: 200px;
+}
+
+.img img {
+  height: 100px;
+}
+
+.starters {
+  /* width: 80%; */
+  gap: 150px;
+}
+
+.str {
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+footer {
+  color: black;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #10b671;
+  transition: all ease-in-out 0.2s;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-links li {
+  margin: 0 7px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.ftr {
+  font-size: 15px;
+}
+
+.pp {
+  font-size: 15px;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #10b671;
+  transition: all ease-in-out 0.2s;
+}
+
+.Fresh-fruits Link:hover {
+  text-decoration: underline;
+  color: #10b671;
+  transition: all ease-in-out 0.2s;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.remove {
+  color: gray;
+  font-size: 10px;
+}
+
+.remove:hover {
+  cursor: pointer;
+  color: red;
+  /* font-weight: 100; */
+}
+
+.prd {
+  margin-left: 80px;
+}
+
+.rate {
+  position: relative;
+  left: 10px;
+  font-size: 14px;
+}
+
+.rates {
+  font-size: 14px;
+  position: relative;
+  left: 45px;
+}
+
+/* ORDER-SUMMARY */
+.hr-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hr {
+  width: 30%;
+  border: 1px solid black;
+}
+
+.form {
+  border: none;
+  padding-right: 100px;
+  cursor: pointer;
+}
+
+.SUBTOTAL {
+  gap: 240px;
+}
+
+.btnn {
+  width: 30%;
+}
+
+.av {
+  color: blue;
+  /* font-weight: bold; */
+  font-size: 15px;
+}
+
+.imgs {
+  height: 80px;
+}
+
+.service {
+  background: #f3f4f6;
+  height: 350px;
+}
+
+.qty {
+  margin-left: 50px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.lis {
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Cards {
+  margin-top: 100px;
+}
+
+.sk {
+  margin-top: 100px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 320px) {
+  .card {
+    width: 100%;
+  }
+
+  .card h3 {
+    font-size: 15px;
+  }
+
+  .inpt {
+    margin-left: 30px;
+    width: 67%;
+  }
+
+  .shopCard {
+    width: 100%;
+  }
+
+  .shopCard p {
+    font-size: 11px;
+  }
+  .Grocries h3 {
+    font-size: 15px;
+  }
+  .Grocries h6 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  /* .text-name {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  } */
+
+  .lis {
+    display: none !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .fruits {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-1 img {
+    position: relative;
+    right: 18px;
+  }
+
+  .fruits div {
+    display: none;
+  }
+
+  .fruits div:last-child {
+    display: block;
+  }
+  .fruits img {
+    height: 250px;
+  }
+  .Fresh-fruits h2 {
+    font-size: 14px;
+  }
+
+  .carousel-inner img {
+    height: 400px;
+  }
+
+  .card-f-1 img {
+    height: 250px;
+    width: 200px;
+    margin-left: 25px;
+  }
+
+  .card-f-1 {
+    height: 430px;
+  }
+  .text-name h6 {
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+.inpt {
+  padding-left: 30px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="20px" height="20px"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>');
+  background-size: 20px;
+  background-position: 5px center;
+  width: 70%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 320px) {
+  .service {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center align text for better readability */
+  }
+
+  .service div {
+    margin-bottom: 15px; /* Add space between stacked items */
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-size: 20px; /* Adjust font size for mobile */
+  }
+
+  .imgs {
+    margin-top: 10px;
+    object-fit: contain;
+    width: 120px;
+    /* height: 100px; */
+  }
+  .d-img {
+    height: 220px;
+    width: 300px;
+  }
+  .service {
+    height: 450px;
+  }
+
+  .s-img {
+    height: 150px;
+  }
+
+  .hr {
+    width: 75%;
+  }
+  .named {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .starter {
+    flex-direction: column; /* Stack vertically on small screens */
+    align-items: center; /* Center align items */
+    text-align: center; /* Center text */
+    padding: 5px; /* Reduced padding for tighter spacing */
+  }
+
+  .starters {
+    flex-direction: column; /* Stack all items vertically */
+    gap: 5px; /* Add a gap between items instead of margin */
+  }
+
+  .img img {
+    max-width: 70%; /* Make image responsive */
+    height: auto;
+  }
+
+  .m-2 {
+    margin: 0; /* Reset margin on small screens */
+  }
+
+  .rate {
+    margin-right: 190px;
+    font-size: 1rem; /* Adjust font size if necessary */
+  }
+
+  .rates {
+    font-size: 1rem; /* Adjust font size if necessary */
+    margin-right: 260px;
+  }
+
+  .green {
+    margin: 5px 0; /* Reduced space above the button section */
+  }
+
+  .btnn {
+    margin-right: 90px;
+  }
+
+  .delete {
+    margin: 5px 0; /* Reduced space above the remove button */
+  }
+}
+
+@media (max-width: 320px) {
+  .SUBTOTAL {
+    gap: 0;
+    flex-direction: row; /* Keep elements in a row */
+    justify-content: space-between; /* Space elements evenly */
+    padding: 10px; /* Add some padding */
+  }
+
+  .SUBTOTAL h6 {
+    margin: 0; /* Remove margin for tighter spacing */
+    font-size: 19px; /* Adjust font size if needed */
+  }
+
+  .shopCard {
+    margin-top: 80px;
+  }
+
+  .bn {
+    width: 70%;
+    border-radius: 0px;
+  }
+  .SUBTOTAL div {
+    margin: 0 5px; /* Add minimal side margins for separation */
+  }
+  .avv {
+    font-weight: 900;
+    font-size: 13px;
+  }
+
+  .cartItem {
+    overflow-x: hidden;
+  }
+}
