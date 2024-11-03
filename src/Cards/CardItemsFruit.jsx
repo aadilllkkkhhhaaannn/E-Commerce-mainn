@@ -53,8 +53,8 @@ const CardItemsFruit = ({ users, query, setQuery }) => {
       </div>
       {/* CARD-ITEM*/}
       <div className="Cards">
-        <h4 className="d-flex align-items-center justify-content-center">
-          Shop Grocries : <FaArrowRightLong className="m-2" />
+        <h4 className="d-flex align-items-center df justify-content-center">
+          Shop Grocries : <FaArrowRightLong className=" m-2" />
         </h4>
         <div className="d-flex align-items-center justify-content-center">
           {users

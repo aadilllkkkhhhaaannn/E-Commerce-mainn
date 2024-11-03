@@ -1,6 +1,4 @@
 import React from "react";
-import img from "../assets/th.jpeg";
-import pz from "../assets/pizza.jpeg";
 
 const Home = () => {
   return (
@@ -61,5 +59,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// {/* <img src={img} alt="" />*/}

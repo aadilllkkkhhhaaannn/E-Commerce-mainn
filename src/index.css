@@ -88,7 +88,6 @@ p {
 .Grocries {
   background-color: #f2f4f3;
   height: 50vh;
-  /* overflow-x: auto; */
 }
 
 .text-name {
@@ -439,6 +438,19 @@ footer {
     width: 100%;
   }
 
+  .Grocries {
+  background-color: #f2f4f3;
+  height: 40vh;
+}
+
+  .Home {
+    margin-top: 25px;
+  }
+
+  .sk {
+  margin-top: 120px;
+}
+
   .card h3 {
     font-size: 15px;
   }
@@ -477,9 +489,21 @@ footer {
     flex-direction: column;
   }
 
+  .Cards h4 {
+    top: 20px;
+    position: relative;
+  }
+  .bb h4{
+    margin-top: 20px;
+  }
+
   .card-1 img {
     position: relative;
-    left: 28px;
+    right: 15px;
+  }
+
+  .card-1 {
+    width: 70%;
   }
 
   .fruits div {

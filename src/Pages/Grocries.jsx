@@ -19,7 +19,6 @@ const Grocries = () => {
             <Link className="link" to={"/carditemsfruit"}>
               view All
             </Link>
-            {/* <a href="">View all</a> */}
           </div>
         </div>
 

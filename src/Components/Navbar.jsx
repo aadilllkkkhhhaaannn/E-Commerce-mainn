@@ -74,7 +74,7 @@ const Navbar = ({ setQuery }) => {
           </button>
         </div>
       </div>
-      <div className="shopCard ">
+      <div className="shopCard">
         <p className="d-flex align-items-center justify-content-center p-1">
           Great Deals on your weekly shopCard.{" "}
           <a href="">
