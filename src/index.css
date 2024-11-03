@@ -439,17 +439,17 @@ footer {
   }
 
   .Grocries {
-  background-color: #f2f4f3;
-  height: 40vh;
-}
-
-  .Home {
-    margin-top: 25px;
+    background-color: #f2f4f3;
+    height: 40vh;
   }
 
+  /* .Home {
+    margin-top: 25px;
+  } */
+
   .sk {
-  margin-top: 120px;
-}
+    margin-top: 120px;
+  }
 
   .card h3 {
     font-size: 15px;
@@ -462,6 +462,8 @@ footer {
 
   .shopCard {
     width: 100%;
+    position: relative;
+    top: 30px;
   }
 
   .shopCard p {
@@ -493,7 +495,7 @@ footer {
     top: 20px;
     position: relative;
   }
-  .bb h4{
+  .bb h4 {
     margin-top: 20px;
   }
 
