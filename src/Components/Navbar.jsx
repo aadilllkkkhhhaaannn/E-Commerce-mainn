@@ -8,7 +8,7 @@ const Navbar = ({ setQuery }) => {
 
   return (
     <>
-      <div className="card nav rounded-0 p-1">
+      <div className="card nav rounded-0">
         <div className="m-3 d-flex align-items-center justify-content-around">
           <div>
             <h3 style={{ cursor: "pointer" }} className="text-white">
@@ -60,7 +60,9 @@ const Navbar = ({ setQuery }) => {
             <li className="aa list-group-item">About Us</li>
           </a>
           <li class="list-group-item">Inspiration & Recipes</li>
-          <li class="list-group-item">Contact</li>
+          <Link to={"/contact"}>
+            <li class="list-group-item">Contact</li>
+          </Link>
           <li class="list-group-item">
             Demos
             <i class="fa-solid fa-angle-down"></i>

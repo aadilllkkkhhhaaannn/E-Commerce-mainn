@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,7 +8,9 @@ const Footer = () => {
       <footer>
         <div class="container">
           <div class="footer-content">
-            <h3 className="" style={{ color: "#198754" }}>Canopy</h3>
+            <h3 className="" style={{ color: "#198754" }}>
+              Canopy
+            </h3>
             {/* <p className="ftr text-dark m-3">
               This is a demo store by Clean. Canvas All Images and Video Content
               contesy of Shutterstocks and Pexis , <br /> and are not for and
@@ -36,10 +39,10 @@ const Footer = () => {
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="https://hamza-s-portfolio-vg5o.vercel.app/">About</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <Link to={"/carditemsfruit"}>Services</Link>
             </li>
             <li>
               <a href="#">Login</a>

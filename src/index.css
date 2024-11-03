@@ -434,7 +434,7 @@ footer {
 
 /* RESPONSIVE DESIGN */
 
-@media (max-width: 320px) {
+@media (max-width: 412px) {
   .card {
     width: 100%;
   }
@@ -455,27 +455,23 @@ footer {
   .shopCard p {
     font-size: 11px;
   }
+
   .Grocries h3 {
     font-size: 15px;
   }
+
   .Grocries h6 {
     font-size: 20px;
   }
 }
 
-@media (max-width: 320px) {
-  /* .text-name {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-  } */
-
+@media (max-width: 412px) {
   .lis {
     display: none !important;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 412px) {
   .fruits {
     display: flex;
     flex-direction: column;
@@ -483,7 +479,7 @@ footer {
 
   .card-1 img {
     position: relative;
-    right: 18px;
+    left: 28px;
   }
 
   .fruits div {
@@ -493,9 +489,11 @@ footer {
   .fruits div:last-child {
     display: block;
   }
+
   .fruits img {
     height: 250px;
   }
+
   .Fresh-fruits h2 {
     font-size: 14px;
   }
@@ -507,12 +505,13 @@ footer {
   .card-f-1 img {
     height: 250px;
     width: 200px;
-    margin-left: 25px;
+    margin-left: 35px;
   }
 
   .card-f-1 {
     height: 430px;
   }
+
   .text-name h6 {
     font-size: 12px;
     font-weight: bold;
@@ -528,31 +527,32 @@ footer {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 412px) {
   .service {
-    flex-direction: column; /* Stack items vertically */
-    text-align: center; /* Center align text for better readability */
+    flex-direction: column;
+    text-align: center;
   }
 
   .service div {
-    margin-bottom: 15px; /* Add space between stacked items */
+    margin-bottom: 15px;
   }
 
   h2 {
     margin-top: 20px;
-    font-size: 20px; /* Adjust font size for mobile */
+    font-size: 20px;
   }
 
   .imgs {
     margin-top: 10px;
     object-fit: contain;
     width: 120px;
-    /* height: 100px; */
   }
+
   .d-img {
     height: 220px;
     width: 300px;
   }
+
   .service {
     height: 450px;
   }
@@ -564,45 +564,46 @@ footer {
   .hr {
     width: 75%;
   }
+
   .named {
     display: none;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 412px) {
   .starter {
-    flex-direction: column; /* Stack vertically on small screens */
-    align-items: center; /* Center align items */
-    text-align: center; /* Center text */
-    padding: 5px; /* Reduced padding for tighter spacing */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
   }
 
   .starters {
-    flex-direction: column; /* Stack all items vertically */
-    gap: 5px; /* Add a gap between items instead of margin */
+    flex-direction: column;
+    gap: 5px;
   }
 
   .img img {
-    max-width: 70%; /* Make image responsive */
+    max-width: 70%;
     height: auto;
   }
 
   .m-2 {
-    margin: 0; /* Reset margin on small screens */
+    margin: 0;
   }
 
   .rate {
     margin-right: 190px;
-    font-size: 1rem; /* Adjust font size if necessary */
+    font-size: 1rem;
   }
 
   .rates {
-    font-size: 1rem; /* Adjust font size if necessary */
+    font-size: 1rem;
     margin-right: 260px;
   }
 
   .green {
-    margin: 5px 0; /* Reduced space above the button section */
+    margin: 5px 0;
   }
 
   .btnn {
@@ -610,21 +611,21 @@ footer {
   }
 
   .delete {
-    margin: 5px 0; /* Reduced space above the remove button */
+    margin: 5px 0;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 412px) {
   .SUBTOTAL {
     gap: 0;
-    flex-direction: row; /* Keep elements in a row */
-    justify-content: space-between; /* Space elements evenly */
-    padding: 10px; /* Add some padding */
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
   }
 
   .SUBTOTAL h6 {
-    margin: 0; /* Remove margin for tighter spacing */
-    font-size: 19px; /* Adjust font size if needed */
+    margin: 0;
+    font-size: 19px;
   }
 
   .shopCard {
@@ -635,9 +636,11 @@ footer {
     width: 70%;
     border-radius: 0px;
   }
+
   .SUBTOTAL div {
-    margin: 0 5px; /* Add minimal side margins for separation */
+    margin: 0 5px;
   }
+
   .avv {
     font-weight: 900;
     font-size: 13px;
@@ -648,10 +651,304 @@ footer {
   }
 }
 
+/* .main responsive desing over */
 
-
+/* 
 @media (max-width: 320px) {
    body {
       background-color: yellow;
    }
+} */
+
+.contact {
+  /* width: 100%; */
+  background-color: #f7f8fa;
+  font-family: Arial, sans-serif;
 }
+
+.contact-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  /* max-width: 600px; */
+  margin: 40px auto;
+}
+.contact-form h2 {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.form-control:focus {
+  border-color: #0b4b30;
+  box-shadow: 0 0 5px rgba(11, 75, 48, 0.4); /* Box shadow with #0B4B30 color in rgba */
+}
+
+.btn-custom {
+  background-color: #4a90e2;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.btn-custom:hover {
+  background-color: #357abd;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+#contact {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  padding-bottom: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px "Oswald", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal {
+  /*float: left;*/
+  max-width: 400px;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.form-control,
+textarea {
+  max-width: 400px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.alt-send-button {
+  width: 400px;
+  height: 34px;
+  transition: all 0.2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px "Lato", sans-serif;
+  letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px "Lato", sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+.copyright {
+  font: 200 14px "Oswald", sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .direct-contact-container,
+  .form-horizontal {
+    margin: 0 auto;
+  }
+
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+  }
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .direct-contact-container,
+  .form-wrapper {
+    float: none;
+    margin: 0 auto;
+  }
+  .form-control,
+  textarea {
+    margin: 0 auto;
+  }
+
+  .name,
+  .email,
+  textarea {
+    width: 280px;
+  }
+
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 280px;
+  }
+  .social-media-list {
+    left: 0;
+  }
+  .social-media-list li {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    font-size: 2rem;
+  }
+  .social-media-list li:after {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .send-button {
+    width: 99%;
+  }
+}
+
+/*  */

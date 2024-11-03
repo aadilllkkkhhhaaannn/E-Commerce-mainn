@@ -48,20 +48,11 @@ const Cart = () => {
             </h3>
           </div>
           <div className="input d-flex align-items-center justify-content-center gap-4">
-            {/* <select class="form-select" aria-label="Default select example">
-              <option selected>All</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select> */}
             <div className="input-container">
               <input className="inpt" type="text" placeholder="groceries" />
             </div>
-            {/* <FaMicrophoneAlt /> */}
           </div>
-
           <div className="logo">
-            {/* <i class="fa-regular m-3 fa-user text-white"></i> */}
             <button type="button" class="btn position-relative">
               <Link to={"/cartItem"}>
                 <i class="fa-solid fa-cart-shopping my-2 text-white"></i>
@@ -181,7 +172,7 @@ const CartItem = ({ deleteTodo, cart, index, counts, setCounts }) => {
                 </div>
               </div>
             </div>
-          </div >
+          </div>
           <div>
             <h6 className="price-containe rate">${totalPrice.toFixed(2)}</h6>
           </div>

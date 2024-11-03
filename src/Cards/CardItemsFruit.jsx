@@ -13,7 +13,6 @@ const CardItemsFruit = ({ users, query, setQuery }) => {
 
   const handleCart = (cart) => {
     toast.success(`${cart.name} Added!`);
-
     dispatch(addCart(cart));
   };
 
@@ -27,12 +26,6 @@ const CardItemsFruit = ({ users, query, setQuery }) => {
             </h3>
           </div>
           <div className="input d-flex align-items-center justify-content-center gap-4">
-            {/* <select class="form-select" aria-label="Default select example">
-              <option selected>All</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select> */}
             <div className="input-container">
               <input
                 onChange={(e) => setQuery(e.target.value.toLowerCase())}

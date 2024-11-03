@@ -6,6 +6,7 @@ import HomeLayout from "./Pages/HomeLayout";
 import CartItem from "./Cards/CartItem";
 import Frutis from "./Pages/Frutis";
 import { Toaster } from "react-hot-toast";
+import Contactusfrom from "./Pages/Contactusfrom";
 const API = "https://fruitapi-mf2v.onrender.com/data";
 
 const App = () => {
@@ -72,6 +73,7 @@ const App = () => {
               />
             }
           />
+          {/* <Route path="contact" element={<Contactusfrom />} /> */}
         </Routes>
         <Footer />
       </Router>
